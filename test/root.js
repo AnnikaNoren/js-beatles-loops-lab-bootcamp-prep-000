@@ -1,4 +1,4 @@
-function theBeatlesPlay (musicians, instruments){
+/*function theBeatlesPlay (musicians, instruments){
   var array = [];
 
   for (var i = 0; i <= musicians.length; i++) {
@@ -19,4 +19,4 @@ function johnLennonFacts(facts){
   }
 
   return johnLennonFacts;
-}
+}*/
