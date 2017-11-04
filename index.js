@@ -1,4 +1,3 @@
-console.log("hello")
 function theBeatlesPlay(musicians, instruments){
   var array = [];
 
@@ -10,9 +9,16 @@ function theBeatlesPlay(musicians, instruments){
   return array
 }
 
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+
 function johnLennonFacts(facts){
   var johnLennonFacts = []
-  i = 0
+  i = 0;
 
   while (i < facts.length){
     johnLennonFacts.push(facts[i] + "!!!")
