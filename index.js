@@ -6,7 +6,7 @@ function theBeatlesPlay(musicians, instruments){
     array.push(musicians[i] + " plays " + instruments[i])
   }
 
-  return array
+  return array;
 }
 
 const facts = [
@@ -26,4 +26,15 @@ function johnLennonFacts(facts){
   }
 
   return johnLennonFacts;
+}
+
+function iLoveTheBeatles(number) {
+  var array2 = [];
+
+  do {
+    array2.push("I love the Beatles!");
+    number++;
+  } while (num < 15);
+
+  return array2;
 }
