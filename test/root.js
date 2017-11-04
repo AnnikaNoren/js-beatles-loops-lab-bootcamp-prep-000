@@ -1,15 +1,22 @@
-global.expect = require('expect');
+function theBeatlesPlay (musicians, instruments){
+  var array = [];
 
-const babel = require('babel-core');
-const jsdom = require('mocha-jsdom');
-const path = require('path');
-
-const babelResult = babel.transformFileSync(
-  path.resolve(__dirname, '..', 'index.js'), {
-    presets: ['es2015']
+  for (var i = 0; i <= musicians.length; i++) {
+    //tempString = "\(musicians[i]) plays \(instruments[i])"
+    array.push(musicians[i] + " plays " + instruments[i])
   }
-);
 
-jsdom({
-  src: babelResult.code
-});
+  return array
+}
+
+function johnLennonFacts(facts){
+  var johnLennonFacts = []
+  i = 0
+
+  while (i < facts.length){
+    johnLennonFacts.push(facts[i] + "!!!")
+    i++
+  }
+
+  return johnLennonFacts;
+}
